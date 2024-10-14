@@ -10,9 +10,9 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se tiver light mode adicionar a imagem
-    img.setAttribute("src", "assets/foto-lightmode.jpg")
+    img.setAttribute("src", "assets/profonline.png")
   } else {
     //se tiver light mode adicionar a imagem
-    img.setAttribute("src", "/assets/Untitled.png")
+    img.setAttribute("src", "assets/icon-512x512.png")
   }
 }
