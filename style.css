@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
 
 body * {
@@ -38,7 +39,8 @@ body * {
 
 #container {
   width: 360px;
-  margin: 56px auto 0px auto;
+  max-width: 600px;
+  margin: 56px auto 0px;
   padding: 0 24px;
 }
 
@@ -157,4 +159,13 @@ footer {
   padding: 16px;
   text-align: center;
   font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(assets/bg-mobile.png);
+  }
+  .light {
+    --bg-url: url(assets/bg-mobile-light.png);
+  }
 }
